@@ -1,0 +1,31 @@
+#Print Data Type
+
+# myData = input("Enter your Data : ")
+
+# print(type(int(myData)))
+
+#If input "ABC" --> ValueError
+
+print("100" + "200") # O/P : 100200
+
+print(int("100") + float("200.678"))  # O/P : 300.678
+
+print(3*3+3/3-3)   # O/P : 7.0
+
+print(type(6//2))    # O/P : <class 'int'>
+
+#print int of /* operation. 
+
+print(3//2)  #int optput: 1
+
+print(3/2)   #float output : 1.5
+
+print(round(5/3))  #round output from 1.6666 to 2.
+
+#f-SyntaxWarning
+
+score = 0
+height = 1.8
+isWinning = True
+
+print(f"Your score {score}, your height {height}, you are winning is {isWinning}")
