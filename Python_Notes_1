@@ -29,3 +29,17 @@ height = 1.8
 isWinning = True
 
 print(f"Your score {score}, your height {height}, you are winning is {isWinning}")
+
+#Concept , Round a float o/p upto 2 decimal places. 
+
+print(round(1/3, 2)   #O/P: 0.33
+
+#If there is no two digit after decimal places. but we need to print it. then we will need formating function. 
+
+e.g 5 / 2 = 2.5 ; but to print 2.50
+
+print("{:.2f}".format(5/2)" # O/P 2.50 
+
+
+
+
